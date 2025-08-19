@@ -1,0 +1,90 @@
+body {
+    background: #18181b;
+    background-image:
+        linear-gradient(135deg, #0ff 0%, #00f 100%),
+        repeating-linear-gradient(0deg, rgba(255,255,255,0.03) 0px, rgba(255,255,255,0.03) 1px, transparent 1px, transparent 32px),
+        repeating-linear-gradient(90deg, rgba(255,255,255,0.03) 0px, rgba(255,255,255,0.03) 1px, transparent 1px, transparent 32px);
+    background-blend-mode: screen, normal;
+    min-height: 100vh;
+    color: #fff;
+    font-family: 'Orbitron', 'Press Start 2P', 'Segoe UI', Arial, sans-serif;
+    list-style: none;
+    justify-content: center;
+    
+}
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:none;
+    padding: 10px;
+}
+
+header ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+header ul li {
+    margin: 0 15px;
+}
+
+header ul li a {
+    text-decoration: none;
+    color: #0ff;
+    font-weight: bold;
+    font-family: 'Orbitron', 'Press Start 2P', 'Segoe UI', Arial, sans-serif;
+    transition: color 0.3s;
+}
+
+header ul li a:hover {
+    color: #00f;
+}
+main {
+    text-align: center;
+    padding: 50px;
+}
+
+main img {
+    max-width: 300px;
+    border-radius: 10px;
+}
+
+main h1 {
+    color: #0ff;
+    font-family: 'Orbitron', 'Press Start 2P', Arial, sans-serif;
+    margin-top: 20px;
+}
+
+main p {
+    color: #fff;
+    font-family: 'Orbitron', Arial, sans-serif;
+    font-size: 1.2em;
+    max-width: 600px;
+    margin: 20px auto;
+}
+
+#contacts {
+    margin-top: 50px;
+}
+
+#contacts h2 {
+    color: #0ff;
+    font-family: 'Orbitron', Arial, sans-serif;
+}
+
+#contacts p {
+    color: #fff;
+    font-family: 'Orbitron', Arial, sans-serif;
+    font-size: 1em;
+    max-width: 600px;
+    margin: 20px auto;
+}
+
+#contacts a {
+    color: #0ff;
+    text-decoration: none;
+}
